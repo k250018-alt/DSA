@@ -64,7 +64,6 @@ class Singly_LL{
         Node<T> *newNode = new Node<T>(val);
         if(count == 0){
             head = newNode;
-            head->next = head;
             count++;
             reindx();
             return;
